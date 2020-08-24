@@ -1,0 +1,22 @@
+{
+    "name": "casbin/symfony-permission",
+    "description": "An authorization library that supports access control models like ACL, RBAC, ABAC in Symfony.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yikang",
+            "email": "1115610574@qq.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Symfony\\Permission\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Symfony\\Permission\\Tests\\": "tests/"
+        }
+    }
+}
