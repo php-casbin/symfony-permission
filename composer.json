@@ -8,8 +8,15 @@
             "email": "1115610574@qq.com"
         }
     ],
-    "require": {},
-	"autoload": {
+    "require": {
+        "php": "^7.2.5",
+        "casbin/casbin": "^2.2",
+        "doctrine/orm": "^2.7",
+        "composer/package-versions-deprecated": "^1.11",
+        "doctrine/doctrine-bundle": "^2.1",
+        "doctrine/doctrine-migrations-bundle": "^3.0"
+    },
+    "autoload": {
         "psr-4": {
             "Symfony\\Permission\\": "src/"
         }
